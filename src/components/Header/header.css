@@ -1,0 +1,148 @@
+header.site_header {
+  position: relative;
+  z-index: 9999;
+  padding: 18px 50px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1b2530), to(rgba(27, 37, 48, 0.85)));
+  background: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
+}
+
+header.site_header .logo_wrapper img {
+  width: 112px;
+}
+
+header.site_header .header_nav ul li {
+  margin-left: 15px;
+}
+
+header.site_header .header_nav ul li a {
+  font-size: 17px;
+}
+
+header.site_header .header_nav ul li a.active {
+  border-bottom: 1px solid rgba(242, 244, 246, 0.9);
+  padding-bottom: 3px;
+  font-weight: 900;
+}
+
+header.site_header .header_nav ul li a:hover {
+  color: #fff;
+}
+
+header.site_header .right_aside input {
+  margin-right: 15px;
+  background: transparent;
+  border: 1px solid #5f5f5f;
+  padding: 8px 10px 10px 40px;
+  color: rgba(242, 244, 246, 0.9);
+  outline: none;
+  width: 250px;
+  background: url(./images/loupe.png) no-repeat 10px center;
+  background-size: 18px;
+  opacity: 0.7;
+}
+
+header.site_header .right_aside input:hover {
+  opacity: 1;
+}
+
+header.site_header .right_aside input::-webkit-input-placeholder {
+  font-weight: 400;
+  color: rgba(242, 244, 246, 0.8);
+  font-size: 17px;
+}
+
+header.site_header .right_aside input:-ms-input-placeholder {
+  font-weight: 400;
+  color: rgba(242, 244, 246, 0.8);
+  font-size: 17px;
+}
+
+header.site_header .right_aside input::-ms-input-placeholder {
+  font-weight: 400;
+  color: rgba(242, 244, 246, 0.8);
+  font-size: 17px;
+}
+
+header.site_header .right_aside input::placeholder {
+  font-weight: 400;
+  color: rgba(242, 244, 246, 0.8);
+  font-size: 17px;
+}
+
+header.site_header .right_aside input:focus {
+  opacity: 1;
+  background-color: rgba(15, 23, 30, 0.6);
+}
+
+header.site_header .right_aside .whos_login {
+  position: relative;
+}
+
+header.site_header .right_aside .whos_login.show .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+header.site_header .right_aside .whos_login.show::after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+header.site_header .right_aside .whos_login p {
+  margin-left: 8px;
+  width: 80px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 15px;
+}
+
+header.site_header .right_aside .whos_login::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: block;
+  height: 0;
+  width: 0;
+  border-top: 4.3px solid #8197a4;
+  border-right: 4.3px solid transparent;
+  border-left: 4.3px solid transparent;
+  -webkit-transition: 0.2s all ease-in-out;
+}
+
+header.site_header .right_aside .whos_login .overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 80px;
+  z-index: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+header.site_header .right_aside .whos_login .overlay .loggedinmenu {
+  position: absolute;
+  top: -5px;
+  right: 48px;
+  z-index: 99;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #273341), to(rgba(39, 54, 70, 0.85)));
+  background: linear-gradient(180deg, #273341 0, rgba(39, 54, 70, 0.85));
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+header.site_header .right_aside .whos_login .overlay .loggedinmenu li {
+  padding: 10px 20px 10px 10px;
+}
+
+header.site_header .right_aside .whos_login .overlay .loggedinmenu li a {
+  font-size: 16px;
+}
+/*# sourceMappingURL=header.css.map */
