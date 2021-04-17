@@ -40,7 +40,7 @@ const Header = () => {
                 <div className="whos_login">
                     <a href="javascript:void(0)" onClick={toggleLoginMenu} className="login_toggler d-flex align-items-center">
                         <img src={loginImg} width="32px"/>
-                        <p className="mb-0">Abhimanyu Soni</p>
+                        <p className="mb-0">Shrikar Soni</p>
                     </a>
                     <div className="overlay">
                         <ul className="loggedinmenu" id="loginToggler">
