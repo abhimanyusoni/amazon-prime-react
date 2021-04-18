@@ -24,7 +24,9 @@ const Header = () => {
         <header className="site_header d-flex align-items-center justify-content-between">
             <div className="left_aside d-flex align-items-center">
                 <div className="logo_wrapper">
-                    <img src={Logo} />
+                    <a href="/amazon-prime-react">
+                        <img src={Logo} />
+                    </a>
                 </div>
                 <div className="header_nav">
                     <ul className="d-flex mb-0">
