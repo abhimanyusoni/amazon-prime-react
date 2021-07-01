@@ -14,7 +14,7 @@ const Header = () => {
         let menuClickParent = document.querySelector('.overlay');
         let removeFrom = document.querySelector('.whos_login');
 
-        if ((e.target === menuClickParent) && (e.target != menuClick2 )){
+        if ((e.target == menuClickParent) && (e.target != menuClick2 )){
             removeFrom.classList.remove('show');
         }
     });

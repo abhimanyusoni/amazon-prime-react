@@ -1,0 +1,61 @@
+.slick-prev::before, .slick-next::before {
+  display: none;
+}
+
+.home_slider .slick-prev {
+  background: transparent;
+  background-size: 30px;
+  left: 0;
+  z-index: 99 !important;
+  width: 40px;
+  height: 100%;
+  -webkit-transform: none !important;
+          transform: none !important;
+  top: 0;
+  -webkit-transition: 0.2s all ease-in-out !important;
+}
+
+.home_slider .slick-prev::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  background: url(../slider/images/left-arrow.png) no-repeat center center;
+  z-index: -1;
+}
+
+.home_slider .slick-prev:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#000), to(transparent));
+  background: linear-gradient(90deg, #000, transparent);
+}
+
+.home_slider .slick-next {
+  background-size: 30px;
+  right: 0;
+  z-index: 99;
+  width: 40px;
+  height: 100%;
+  -webkit-transform: none !important;
+          transform: none !important;
+  top: 0;
+  -webkit-transition: 0.2s all ease-in-out !important;
+}
+
+.home_slider .slick-next::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  background: url(../slider/images/right-arrow.png) no-repeat center center;
+  z-index: -1;
+}
+
+.home_slider .slick-next:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#000), to(transparent));
+  background: linear-gradient(-90deg, #000, transparent);
+}
+/*# sourceMappingURL=slider.css.map */
