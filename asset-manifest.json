@@ -1,24 +1,33 @@
 {
   "files": {
-    "main.css": "/amazon-prime-react/static/css/main.20930cff.chunk.css",
-    "main.js": "/amazon-prime-react/static/js/main.71869fdc.chunk.js",
-    "main.js.map": "/amazon-prime-react/static/js/main.71869fdc.chunk.js.map",
-    "runtime-main.js": "/amazon-prime-react/static/js/runtime-main.16d750c3.js",
-    "runtime-main.js.map": "/amazon-prime-react/static/js/runtime-main.16d750c3.js.map",
-    "static/js/2.4a3049af.chunk.js": "/amazon-prime-react/static/js/2.4a3049af.chunk.js",
-    "static/js/2.4a3049af.chunk.js.map": "/amazon-prime-react/static/js/2.4a3049af.chunk.js.map",
-    "static/js/3.ba2100a1.chunk.js": "/amazon-prime-react/static/js/3.ba2100a1.chunk.js",
-    "static/js/3.ba2100a1.chunk.js.map": "/amazon-prime-react/static/js/3.ba2100a1.chunk.js.map",
+    "main.css": "/amazon-prime-react/static/css/main.490c414c.chunk.css",
+    "main.js": "/amazon-prime-react/static/js/main.7ca0b86e.chunk.js",
+    "main.js.map": "/amazon-prime-react/static/js/main.7ca0b86e.chunk.js.map",
+    "runtime-main.js": "/amazon-prime-react/static/js/runtime-main.11d672aa.js",
+    "runtime-main.js.map": "/amazon-prime-react/static/js/runtime-main.11d672aa.js.map",
+    "static/css/2.1f23f38d.chunk.css": "/amazon-prime-react/static/css/2.1f23f38d.chunk.css",
+    "static/js/2.75fb1870.chunk.js": "/amazon-prime-react/static/js/2.75fb1870.chunk.js",
+    "static/js/2.75fb1870.chunk.js.map": "/amazon-prime-react/static/js/2.75fb1870.chunk.js.map",
+    "static/js/3.8a3a2274.chunk.js": "/amazon-prime-react/static/js/3.8a3a2274.chunk.js",
+    "static/js/3.8a3a2274.chunk.js.map": "/amazon-prime-react/static/js/3.8a3a2274.chunk.js.map",
     "index.html": "/amazon-prime-react/index.html",
-    "static/css/main.20930cff.chunk.css.map": "/amazon-prime-react/static/css/main.20930cff.chunk.css.map",
-    "static/js/2.4a3049af.chunk.js.LICENSE.txt": "/amazon-prime-react/static/js/2.4a3049af.chunk.js.LICENSE.txt",
+    "static/css/2.1f23f38d.chunk.css.map": "/amazon-prime-react/static/css/2.1f23f38d.chunk.css.map",
+    "static/css/main.490c414c.chunk.css.map": "/amazon-prime-react/static/css/main.490c414c.chunk.css.map",
+    "static/js/2.75fb1870.chunk.js.LICENSE.txt": "/amazon-prime-react/static/js/2.75fb1870.chunk.js.LICENSE.txt",
+    "static/media/David.jpg": "/amazon-prime-react/static/media/David.3da0611a.jpg",
+    "static/media/arrows.jpg": "/amazon-prime-react/static/media/arrows.34f3d5a1.jpg",
+    "static/media/gotham.jpg": "/amazon-prime-react/static/media/gotham.9d888785.jpg",
     "static/media/login.013ef1db.png": "/amazon-prime-react/static/media/login.013ef1db.png",
-    "static/media/logo.839d08c3.svg": "/amazon-prime-react/static/media/logo.839d08c3.svg"
+    "static/media/logo.839d08c3.svg": "/amazon-prime-react/static/media/logo.839d08c3.svg",
+    "static/media/sherni.jpg": "/amazon-prime-react/static/media/sherni.073ca224.jpg",
+    "static/media/slick-theme.css": "/amazon-prime-react/static/media/slick.c94f7671.ttf",
+    "static/media/toofan.jpg": "/amazon-prime-react/static/media/toofan.535dc8c7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.16d750c3.js",
-    "static/js/2.4a3049af.chunk.js",
-    "static/css/main.20930cff.chunk.css",
-    "static/js/main.71869fdc.chunk.js"
+    "static/js/runtime-main.11d672aa.js",
+    "static/css/2.1f23f38d.chunk.css",
+    "static/js/2.75fb1870.chunk.js",
+    "static/css/main.490c414c.chunk.css",
+    "static/js/main.7ca0b86e.chunk.js"
   ]
 }
